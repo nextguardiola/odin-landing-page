@@ -58,6 +58,7 @@ HERO
 .header a, .content p {
     color: #E5E7EB;
     font-size: 1.125rem;
+    font-weight: 100;
 }
 
 .content h1 {
@@ -176,4 +177,55 @@ QUOTE
     padding-right: 3rem;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/************************* 
+CALL TO ACTION
+*************************/
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0;
+}
+
+.modal {
+    background-color: #3882F6;
+    border-radius: 7.5px;
+    display: flex;
+    width: 70%;
+    height: 9rem;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+}
+
+.modal h3 {
+    color: #F9FAF8;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.modal div {
+    color: #E5E7EB;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.modal button {
+    border: 2px solid #E5E7EB;
+}
+
+/************************* 
+FOOTER
+*************************/
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    font-size: 1.125rem;
 }

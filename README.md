@@ -6,4 +6,3 @@ By the end of this project I should have demonstrated the following skills:
 
 Photo credits:
 - Photo by SevenStorm JUHASZIMRUS from Pexels
-- Photo by SevenStorm JUHASZIMRUS from Pexels
