@@ -157,13 +157,13 @@ QUOTE
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7rem 0 7.5rem;
     color: #1F2937;
 }
 
 .quote .container {
     width: 60%;
     margin: auto;
+    margin: 7rem 0 7.5rem;
 }
 
 .quote .dialog {
