@@ -1,6 +1,13 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.body {
+    flex: 1;
 }
 
 a {
@@ -9,6 +16,10 @@ a {
 
 p {
     margin: 0;
+}
+
+img {
+    padding: 0;
 }
 
 button {
@@ -37,12 +48,11 @@ ul {
     width: 35rem;
 }
 
-.cards img {
-    height: auto;
-    width: 12rem;
-}
 
-/* Hero styles */
+
+/************************* 
+HERO 
+*************************/
 /* Header */
 
 .header a, .content p {
@@ -53,6 +63,7 @@ ul {
 .content h1 {
     color: #F9FAF8;
     font-size: 3rem;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -61,6 +72,7 @@ ul {
     display: flex;
 }
 
+/* Sets the width of the hero container to 70% and centers it */
 .hero .container {
     width: 70%;
     margin: auto;
@@ -78,6 +90,7 @@ ul {
     margin-bottom: 4rem;
 }
 
+/* Hero content styles */
 .content h1 {
     margin-bottom: 0.5rem;
 }
@@ -91,7 +104,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 6rem;
-    gap: 2.5rem;
+    gap: 3rem;
 }
 
 .content .description {
@@ -99,3 +112,68 @@ ul {
 }
 
 
+/************************* 
+RANDOM INFORMATION 
+*************************/
+.random-info {
+    text-align: center;
+    margin: 3rem 0 7.5rem;
+}
+
+.random-info h2 {
+    font-size: 2.25rem;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 3.5rem;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.flex-item img {
+    border-radius: 1rem;
+    border: 0.25rem solid #3882F6;
+    height: auto;
+    max-width: 13rem;
+}
+
+.flex-item {
+    max-width: 15rem;
+    text-align: center;
+    color: #616c7c;
+    font-size: 1.125rem; 
+}
+
+/************************* 
+QUOTE 
+*************************/
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0 7.5rem;
+    color: #1F2937;
+}
+
+.quote .container {
+    width: 60%;
+    margin: auto;
+}
+
+.quote .dialog {
+    font-size: 2.25rem;
+    text-align: left;
+    font-weight: 100;
+}
+
+.quote .source {
+    text-align: right;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
