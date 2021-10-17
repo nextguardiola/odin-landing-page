@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+.logo img {
+    height: auto;
+    width: 6rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image img {
+    height: auto;
+    width: 25rem;
+}
+
+.cards img {
+    height: auto;
+    width: 12rem;
+}
