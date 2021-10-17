@@ -1,4 +1,4 @@
-This is the Recipes project as part of The Odin Project!
+This is the Landing Page project as part of The Odin Project!
 
 By the end of this project I should have demonstrated the following skills:
 1. Creating a project using HTML and CSS from scratch
