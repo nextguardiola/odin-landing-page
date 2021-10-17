@@ -1,5 +1,24 @@
 body{
     margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-style: none;
+    color: #E5E7EB;
+    font-size: 1.125rem;
+    font-weight: 600;
 }
 
 .logo img {
@@ -15,10 +34,68 @@ ul {
 
 .hero-image img {
     height: auto;
-    width: 25rem;
+    width: 35rem;
 }
 
 .cards img {
     height: auto;
     width: 12rem;
 }
+
+/* Hero styles */
+/* Header */
+
+.header a, .content p {
+    color: #E5E7EB;
+    font-size: 1.125rem;
+}
+
+.content h1 {
+    color: #F9FAF8;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.hero .container {
+    width: 70%;
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.content h1 {
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    gap: 2.5rem;
+}
+
+.content .description {
+    flex: 1;
+}
+
+
